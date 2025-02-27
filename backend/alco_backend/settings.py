@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'alco.urls'
+ROOT_URLCONF = 'alco_backend.urls'
 
 TEMPLATES = [
     {
@@ -67,7 +67,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'alco.wsgi.application'
+WSGI_APPLICATION = 'alco_backend.wsgi.application'
 
 
 # Database
